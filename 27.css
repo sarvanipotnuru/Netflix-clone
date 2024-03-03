@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    background-image: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)),url(assets/jpg/banner/27.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    max-width: 100%;
+    height:150vh;
+
+}
+.banner .banner-content{
+    padding:8% 6% ;
+
+}
+.banner .banner-content .banner-title h1{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(248, 235, 235);
+    letter-spacing: 0.5px;
+    max-width: 400px;
+    padding: 0cm;
+
+}
+.banner .banner-content .banner-title p{
+    max-width:750px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(240, 229, 229);
+    padding:0.5% 2% ;
+}
+.banner .banner-content .banner-button .play{
+    padding:1% 2% ;
+    margin-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    transition: 5ss;
+    color: aliceblue;
+    background-color: rgb(215, 22, 22);
+    border-radius: 5px;
+    border: none;
+
+
+}
+.banner .banner-content .banner-button .play:hover{
+    background-color: blanchedalmond;
+    color: white;
+}
+.banner .banner-content .banner-button .info{
+    padding:1% 2% ;
+    margin-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    transition: 5ss;
+    color: aliceblue;
+    background-color: rgb(215, 22, 22);
+    border-radius: 5px;
+    border: none;
+
+
+}
+.banner .banner-content .banner-button .info:hover{
+    background-color: blanchedalmond;
+    color: white;
+}
+section .loaders {
+   display: flex;
+   overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top:2%;
+    font-family: Arial, Helvetica, sans-serif;
+
+ 
+
+}
+section .loaders .loader {
+    margin: 0% 2%;
+    height: 400px;
+    transition: transform 420ms;
+}
+section .loaders .loader:hover{
+    transform:scale(1.09) ;
+}
+footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #666 ;
+    color: #666;
+}
+footer h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom:30px;
+}
+body
+{
+    background-color: #181818;
+    
+}
+footer .row{
+    display:flex;
+    align-items: flex-start;
+    padding: 0.5% 0%;
+    word-spacing:5%;
+    table-layout: fixed;
+
+
+}
+footer .col a{
+    color: #777;
+    font-size: large;
+    font-weight:100;
+    display: block; 
+    padding:20px; 
+} 
+    
+
+footer .col{
+    margin: 1% 2%;
+    
+}
+.lang{
+    background-color: transparent;
+    border-radius: 4px;
+    border: 3px solid #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+    color: #777;
+    padding: 5px 20px;
+    margin: 5px 20px;
+}
+footer p{
+    color: #777;
+    padding:10px 70px ;
+    font-size:0.9rem ;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner .container1-title  img{
+     width: 150px;
+     height: 70px;
+}
+.container1-title{
+    box-shadow: 8px 5px 16px 0 rgba(0,0,0,.37);
+    width: 80%;
+    display: flex;
+    max-width: 100%;
+    margin-top: 1rem;
+    background-image: linear-gradient(90deg,#333 5%,#181818 95%);
+    height: 70px;
+    box-shadow: 8px 5px 16px 0 rgba(0,0,0,.37);
+    justify-content: space-between;
+    margin-top: 10%;
+    
+}
+.container1-title  p{
+    font-size: 20px;
+    padding-right:30%;
+    padding-top: 0.5cm;
+    color: #fff;
+    
+}
+.container1-title button{
+    color: aliceblue;
+    background-color: rgb(215, 22, 22);
+    border-radius:5%;
+    border:#df1818;
+    width: 3cm;
+    margin:1.5% 1.5%;
+     
+}
+h1{
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:1% 4.8%;
+    font-weight: 300;
+}
+.container-title2
+ {
+    max-width: 50%;
+    text-align: center;
+    color: #fff;
+ }  
+ .logo{
+    width: 150px;
+    object-fit: contain;
+    margin: 1% 3%;
+
+}
+nav .profile{
+    width: 50px;
+    object-fit:fill;
+    border-radius:50%;
+    border:4px solid rgb(235, 229, 229);
+    margin-left: 90%;
+} 
+h2{
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding:1% 5%;
+}
+.dropdown{
+    background-color: transparent;
+    font-family: Arial;
+    font-weight: 200;
+    font-size: 1.5em;
+    color:#fff;
+    padding: 1% 5%;
+    margin: 5px 5px;
+}
+p{
+    color:#777;
+    max-width: 1000px;
+    font-size: larger;
+    padding: 0% 5%;
+    font-family: Arial;
+    word-spacing: 2%;
+}
+
+loader{
+     display: flex;
+    padding: 0.5% 3%;
+
+}
+
+loader .more{
+    display: flex;
+}
+loader .more .more-title{
+   
+   padding: 0% 1%;
+   margin: 0% 2%;
+   
+   
+   
+}
+loader .more .more-title h3{
+    color:#777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    justify-content: center;
+    
+    
+}
+loader .more .more-title h4{
+    color: rgb(232, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 1%;
+    
+
+}
+.cast{
+    display: flex;
+    
+}
+loaders .cast .cast-title{
+    padding: 0% 1%;
+    margin: 0% 4%;
+}
+loaders .cast .cast-title h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e3e0e0;
+    font-size:1rem;
+    font-weight: 300;
+    padding: 3.5%;
+}
+loaders h3{
+    color: #777;
+    padding: 0.5% 2.2cm;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+sections .posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow:scroll;
+
+    
+}
+sections .posters::-webkit-scrollbar{
+    display:block;
+
+}
+sections .posters .posters-title{
+
+    margin:0% 0.5%;
+    transition: transform 420ms;
+    
+}
+
+
+
+sections .posters .posters-title:hover{
+    transform: scale(1.09);
+}
+sections .posters .posters-title img {
+       width:400px;
+       margin-left:10%;
+}
+
+rows{
+    display: flex;
+   padding: 0.5% 3%;
+
+}
+
+rows .coming{
+   display: flex;
+}
+rows .coming .coming-title{
+  
+  padding: 0% 2%;
+  margin: 0% 2%;
+  
+  }
+rows .coming .coming-title h4{
+   color: rgb(232, 227, 227);
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 300;
+   font-size: 1rem;
+   padding: 1%;
+   
+
+}
+rows .coming .coming-title p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+    max-width: 1000px;
+
+}
+view{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+    
+    
+}
+view h3{
+    color: #777;
+    padding-left: 2.2cm;
+    font-weight: 300;
+    
+
+}
+view h4{
+    color: #fff;
+    padding-left: 2.2cm;
+    font-weight: 300;
+}
+section .episodes{
+    display: flex;
+    overflow-y: hidden;
+    overflow:scroll;
+
+    
+}
+section .episodes::-webkit-scrollbar{
+    display:block;
+
+}
+section h1{
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding:1cm;
+}
+section .episodes .episodes-title{
+
+    margin:0% 1%;
+    transition: transform 420ms;
+    
+}
+section .episodes .episodes-title h3{
+    color: rgb(232, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 2% 0%;
+}
+
+section .episodes .episodes-title:hover{
+    transform: scale(1.09);
+}
+
+
+sections .posters .posters-title:hover{
+    transform: scale(1.09);
+}
+sections .posters .posters-title img {
+       width:400px;
+       margin:0% 1%;
+}
+section1 .loaders1{
+    display: flex;
+
+}
+section1 .loaders1 iframe{
+    margin: 0% 0.5%;
+}
+h4{
+    color: #fff;
+    padding: 0% 4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section .episodes .episodes-title p{
+    font-size:15px;
+
+}
